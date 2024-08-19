@@ -1,18 +1,28 @@
-# 匹配Plex相关的USER-AGENT和域名
-USER-AGENT,*Plex*
-USER-AGENT,Plex*
-DOMAIN-KEYWORD,plex
-DOMAIN,metadata.provider.plex.tv
-DOMAIN,metadata-static.plex.tv
-DOMAIN,assets.plex.tv
-DOMAIN,scrobbles.plex.tv
-DOMAIN,analytics.plex.tv
-DOMAIN,clients.plex.tv
-DOMAIN,images.plex.tv
-DOMAIN,app.plex.tv
-DOMAIN,discover.provider.plex.tv
-DOMAIN,mp.plex.tv
-DOMAIN,ump.plex.tv
-DOMAIN,mpm.plex.tv
-DOMAIN,meta.plex.tv
-DOMAIN-SUFFIX,plex.tv
+# 匹配 TinyMediaManager 使用的刮削器的 USER-AGENT 和域名
+- USER-AGENT,*Plex*
+- USER-AGENT,Plex*
+- DOMAIN-KEYWORD,plex
+- DOMAIN,metadata.provider.plex.tv
+- DOMAIN,metadata-static.plex.tv
+- DOMAIN,assets.plex.tv
+- DOMAIN,scrobbles.plex.tv
+- DOMAIN,analytics.plex.tv
+- DOMAIN,clients.plex.tv
+- DOMAIN,images.plex.tv
+- DOMAIN,app.plex.tv
+- DOMAIN,discover.provider.plex.tv
+- DOMAIN,mp.plex.tv
+- DOMAIN,ump.plex.tv
+- DOMAIN,mpm.plex.tv
+- DOMAIN,meta.plex.tv
+- DOMAIN-SUFFIX,plex.tv
+
+# 刮削器常用的刮削器的域名和 API 端点
+- DOMAIN,api.themoviedb.org
+- DOMAIN,www.imdb.com
+- DOMAIN,www.omdbapi.com
+- DOMAIN,movie-database-api.com
+- DOMAIN,api.tvmaze.com
+- DOMAIN,api.thetvdb.com
+- DOMAIN,api.trakt.tv
+
