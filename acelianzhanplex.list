@@ -26,3 +26,9 @@
 - DOMAIN,api.thetvdb.com
 - DOMAIN,api.trakt.tv
 
+# 额外添加的域名和端口
+- DOMAIN,pubsub.plex.tv
+- DOMAIN,analytics.plex.tv
+- DOMAIN,clients.plex.tv
+- DOMAIN,plex.tv
+- DOMAIN,movie-pilot.org
