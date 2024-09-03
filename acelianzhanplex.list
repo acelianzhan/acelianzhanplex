@@ -16,6 +16,7 @@
 - DOMAIN,mpm.plex.tv
 - DOMAIN,meta.plex.tv
 - DOMAIN-SUFFIX,plex.tv
+- DOMAIN,music.provider.plex.tv
 
 # 刮削器常用的刮削器的域名和 API 端点
 - DOMAIN,api.themoviedb.org
