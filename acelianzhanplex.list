@@ -1,11 +1,22 @@
-# 使用泛域名规则匹配 Plex 相关的域名
-- DOMAIN-SUFFIX,plex.tv
+# 排除的域名规则配置
+rules:
+  - DOMAIN-EXCEPT,plex.tv
+  - DOMAIN-EXCEPT,amazonaws.com
+  - DOMAIN-EXCEPT,plex.direct
 
-# 刮削器常用的刮削器的域名和 API 端点
-- DOMAIN-SUFFIX,tmdb.org
-- DOMAIN-SUFFIX,imdb.com
-- DOMAIN-SUFFIX,omdbapi.com
-- DOMAIN-SUFFIX,movie-database-api.com
-- DOMAIN-SUFFIX,tvmaze.com
-- DOMAIN-SUFFIX,thetvdb.com
-- DOMAIN-SUFFIX,trakt.tv
+# 添加的 Plex 相关域名规则配置
+rules:
+  - DOMAIN-SUFFIX,downloads.plex.tv
+  - DOMAIN-SUFFIX,metadata-static.plex.tv
+  - DOMAIN-SUFFIX,metadata.provider.plex.tv
+  - DOMAIN-SUFFIX,meta.plex.tv
+
+# 刮削器常用的域名和 API 端点规则配置
+rules:
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,imdb.com
+  - DOMAIN-SUFFIX,omdbapi.com
+  - DOMAIN-SUFFIX,movie-database-api.com
+  - DOMAIN-SUFFIX,tvmaze.com
+  - DOMAIN-SUFFIX,thetvdb.com
+  - DOMAIN-SUFFIX,trakt.tv
