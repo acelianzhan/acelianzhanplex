@@ -1,16 +1,11 @@
-# 排除的域名规则配置
-rules:
-  - DOMAIN-EXCEPT,plex.tv
-  - DOMAIN-EXCEPT,amazonaws.com
-  - DOMAIN-EXCEPT,plex.direct
-
 # 添加的 Plex 相关域名规则配置
 rules:
   - DOMAIN-SUFFIX,downloads.plex.tv
   - DOMAIN-SUFFIX,metadata-static.plex.tv
   - DOMAIN-SUFFIX,metadata.provider.plex.tv
   - DOMAIN-SUFFIX,meta.plex.tv
-
+  - DOMAIN-SUFFIX,app.plex.tv
+  - DOMAIN-SUFFIX,metadata.provider.plex.tv
 # 刮削器常用的域名和 API 端点规则配置
 rules:
   - DOMAIN-SUFFIX,tmdb.org
