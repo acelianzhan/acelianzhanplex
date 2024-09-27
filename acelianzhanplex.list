@@ -1,10 +1,7 @@
-rules:
-  # 指定 metadata.provider.plex.tv 和 app.plex.tv 走代理
+  #plex
   - DOMAIN,metadata.provider.plex.tv
   - DOMAIN,app.plex.tv
-  
-  # 其他 plex.tv 相关域名走直连
-  - DOMAIN-SUFFIX,plex.tv,DIRECT
+
   
   # 刮削器常用的域名和 API 端点走代理
   - DOMAIN-SUFFIX,tmdb.org
