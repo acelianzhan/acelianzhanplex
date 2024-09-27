@@ -1,6 +1,5 @@
   #plex
-  - DOMAIN,metadata.provider.plex.tv
-  - DOMAIN,app.plex.tv
+ - DOMAIN-SUFFIX,plex.tv
 
   
   # 刮削器常用的域名和 API 端点走代理
