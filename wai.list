@@ -1,2 +1,5 @@
 rules:
-- DOMAIN-SUFFIX,fsm.name,PROXY  # fsm.name 及其所有子域名走代理
+  # 飞天拉面神教 (FSM) 及其所有子域名走代理
+  - DOMAIN-SUFFIX,fsm.name,DIRECT  # fsm.name 
+  - DOMAIN,img.fsm.name,DIRECT  # img.fsm.name 
+  - DOMAIN,fsm.name,DIRECT  # fsm.name 
