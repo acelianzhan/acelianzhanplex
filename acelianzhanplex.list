@@ -1,8 +1,5 @@
-  #plex
- - DOMAIN-SUFFIX,plex.tv
-
-  
-  # 刮削器常用的域名和 API 端点走代理
+rules:
+# 刮削器常用的域名和 API 端点走代理
   - DOMAIN-SUFFIX,tmdb.org
   - DOMAIN-SUFFIX,imdb.com
   - DOMAIN-SUFFIX,omdbapi.com
