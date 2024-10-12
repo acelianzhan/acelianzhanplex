@@ -1,2 +1,20 @@
 rules:
-  - DOMAIN-SUFFIX,plex.tv,DIRECT
+  - DOMAIN-SUFFIX,hdhome.org,DIRECT  # 家园
+  - DOMAIN-SUFFIX,pttime.org,DIRECT  # PTT
+  - DOMAIN-SUFFIX,hhan.club,DIRECT  # 憨憨
+  - DOMAIN-SUFFIX,hdfans.org,DIRECT  # 红豆饭
+  - DOMAIN-SUFFIX,oshen.win,DIRECT  # OshenPT
+  - DOMAIN-SUFFIX,ptvicomo.net,DIRECT  # 象站
+  - DOMAIN-SUFFIX,rousi.zip,DIRECT  # 肉丝9KG
+  - DOMAIN-SUFFIX,monikadesign.uk,DIRECT  # 莫妮卡 动漫站
+  - DOMAIN-SUFFIX,okpt.net,DIRECT  # OKPT
+  - DOMAIN-SUFFIX,ptchina.org,DIRECT  # 铂金学院
+  - DOMAIN-SUFFIX,hdtime.org,DIRECT  # 高清时间
+  - DOMAIN-SUFFIX,m-team.io,DIRECT  # 馒头
+  - DOMAIN-SUFFIX,discfan.net,DIRECT  # 蝶粉
+  - DOMAIN-SUFFIX,agsvpt.com,DIRECT  # 末日站
+  - DOMAIN-SUFFIX,ilolicon.com,DIRECT  # 萝莉 里番站点
+  - DOMAIN-SUFFIX,leaves.red,DIRECT  # 红叶 有声书
+  - DOMAIN-SUFFIX,carpt.net,DIRECT  # PT车
+  - DOMAIN-SUFFIX,audiences.me,DIRECT  # 观众
+  - DOMAIN-SUFFIX,haidan.video,DIRECT  # 海胆之家
