@@ -1,0 +1,2 @@
+rules:
+- DOMAIN-SUFFIX,fsm.name,PROXY  # 飞天拉面神教 (FSM) 走代理
