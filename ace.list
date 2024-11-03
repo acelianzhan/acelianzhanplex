@@ -18,5 +18,3 @@ rules:
   - DOMAIN-SUFFIX,carpt.net,DIRECT  # PT车
   - DOMAIN-SUFFIX,audiences.me,DIRECT  # 观众
   - DOMAIN-SUFFIX,haidan.video,DIRECT  # 海胆之家
-  
-  - DST-PORT,47984,DIRECT
